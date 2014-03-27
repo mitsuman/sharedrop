@@ -455,8 +455,6 @@ function Peer(id, options) {
 
 util.inherits(Peer, EventEmitter);
 
-Peer.CHUNK_MTU = 16000;
-
 /** Initialize a connection with the server. */
 Peer.prototype._initialize = function (id) {
   var self = this;
